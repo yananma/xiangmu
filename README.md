@@ -38,6 +38,21 @@ SVM 画图、核函数、调参数松弛因子 C 和高斯核函数参数 σ、s
 <br>
 <br>
 
+#### 5、xgboost 保险赔偿业务 
+>模型算法：xgboost 
+> 
+>##### part1_data_discovery 
+>pandas 处理数据、画图查看数据、
+> 
+>##### part2_xgboost 
+>xgboost 参数含义、xgboost 调参、
+<br> 
+<br> 
+
+#### 6、科比生涯数据分析 
+模型算法：这个项目的目的主要是演示怎么处理数据  
+pandas 处理数据、画图、
+
 
 
 
