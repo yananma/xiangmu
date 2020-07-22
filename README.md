@@ -30,6 +30,7 @@ missingo画图查看缺失值、特征相关性分析(相关性高的特征去�
 >
 >#### 3-随机森林参数选择 
 >随机搜索 RandomizedSearchCV、网格搜索 GridSearchCV、
+<br>
 
 #### 3、贝叶斯新闻分类任务
 模型算法：朴素贝叶斯  
@@ -72,10 +73,12 @@ pandas 处理数据、画图、
 >#### 文本特征
 >nltk 停词、词袋模型、N-Grams 模型、TF-IDF、LDA、word2vec、
 <br>
+<br>
 
 #### 2、梯度提升算法GBDT 
 模型算法：GBDT、Xgboost、LightGBM  
 三个算法的简单原理、算法参数、效果性能对比、
+<br>
 <br>
 
 #### 3、饭店流量预测 
@@ -94,6 +97,12 @@ pandas 处理数据、画图、
 #### 5、线性判别分析 LDA 
 模型算法：LDA  
 这个项目是用代码实现了 LDA 的算法公式，演示了整个算法  
+<br>
+<br>
+
+#### 6、高斯混合模型 GMM
+模型算法：PCA、KMeans、GMM    
+<br>
 <br>
 
 
