@@ -9,14 +9,12 @@
 模型算法：线性回归  
 missingo画图查看缺失值、特征相关性分析(相关性高的特征去掉)及画图、 
 <br>
-<br>
 
 ## 《机器学习实战》
 #### 1、信用卡欺诈检测  
 模型算法：LogisticRegression  
 类别个数柱形图、下采样、混淆矩阵、  
 软件版本过旧，运行出错。
-<br>
 <br>
 
 #### 2、基于随机森林的气温预测
@@ -36,12 +34,10 @@ missingo画图查看缺失值、特征相关性分析(相关性高的特征去�
 模型算法：朴素贝叶斯  
 jieba 分词、停用词、wordcloud、TF-IDF 提取关键词、词袋模型、
 <br>
-<br>
 
 #### 4、支持向量机
 模型算法：支持向量机  
 SVM 画图、核函数、调参数松弛因子 C 和高斯核函数参数 σ、seaborn heatmap 画混淆矩阵、
-<br>
 <br>
 
 #### 5、xgboost 保险赔偿业务 
@@ -63,7 +59,6 @@ pandas 处理数据、画图、
 模型算法：LogisticRegression、随机森林  
 有一段算混淆矩阵的代码、
 <br>
-<br>
 
 ## 《机器学习进阶》
 #### 1、数据特征
@@ -73,36 +68,30 @@ pandas 处理数据、画图、
 >#### 文本特征
 >nltk 停词、词袋模型、N-Grams 模型、TF-IDF、LDA、word2vec、
 <br>
-<br>
 
 #### 2、梯度提升算法GBDT 
 模型算法：GBDT、Xgboost、LightGBM  
 三个算法的简单原理、算法参数、效果性能对比、
-<br>
 <br>
 
 #### 3、饭店流量预测 
 模型算法：LightGBM  
 完全是 pandas 应用教学，从这个例子学会了 groupby、apply、inplace、shift、merge、log 变换、
 <br> 
-<br>
 
 #### 4、人口普查数据分析
 模型算法：KNN、Logistic Regression、Random Forest、Naive Bayes、Decision Tree、Gradient Boosting Trees<br>
 这个项目用了 6 个算法，最后通过比较 AUC 来选取最好的模型。<br>
 特征清洗和特征工程流程和常用方法、特征选择、特征相关性、特征重要性、单变量分析、双变量分析、ROC、AUC、
 <br>
-<br>
 
 #### 5、线性判别分析 LDA 
 模型算法：LDA  
 这个项目是用代码实现了 LDA 的算法公式，演示了整个算法  
 <br>
-<br>
 
 #### 6、高斯混合模型 GMM
 模型算法：PCA、KMeans、GMM    
-<br>
 <br>
 
 
