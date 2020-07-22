@@ -71,7 +71,6 @@ pandas 处理数据、画图、
 >
 >#### 文本特征
 >nltk 停词、词袋模型、N-Grams 模型、TF-IDF、LDA、word2vec、
-<br>
 
 #### 2、梯度提升算法GBDT 
 模型算法：GBDT、Xgboost、LightGBM  
@@ -83,8 +82,15 @@ pandas 处理数据、画图、
 完全是 pandas 应用教学，从这个例子学会了 groupby、apply、inplace、shift、merge、log 变换、
 <br> 
 
-#### 4、线性判别分析 LDA 
-模型：LDA  
+
+#### 4、人口普查数据分析
+模型算法：KNN、Logistic Regression、Random Forest、Naive Bayes、Decision Tree、Gradient Boosting Trees
+这个项目用了 6 个算法，最后通过比较 AUC 来选取最好的模型。
+特征清洗和特征工程流程和常用方法、特征选择、特征相关性、特征重要性、单变量分析、双变量分析、ROC、AUC、
+<br>
+
+#### 5、线性判别分析 LDA 
+模型算法：LDA  
 这个项目是用代码实现了 LDA 的算法公式，演示了整个算法  
 
 
