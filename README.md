@@ -91,7 +91,9 @@ pandas 处理数据、画图、
 模型算法：PCA、KMeans、GMM    
 <br>
 
-
+#### 7、隐马尔可夫模型 HMM
+模型算法：HMM  
+hmmlearn 工具包用法、维特比算法求解、<br>
 
 
 注意两个空格，换行
