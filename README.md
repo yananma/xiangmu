@@ -94,6 +94,28 @@ pandas 处理数据、画图、
 #### 7、隐马尔可夫模型 HMM
 模型算法：HMM  
 hmmlearn 工具包用法、维特比算法求解、<br>
+<br>
+
+#### 8、NLP 自然语言处理方法对比  
+模型算法：词袋模型、word2vec、深度学习 CNN 和 RNN  
+正则表达式过滤特殊字符、画词频图并截断频数少的、
+
+#### 9、使用word2vec实现分类任务
+模型算法：LogisticRegression、词袋模型、word2vec  
+word2vec 参数、语言数据处理流程：去除 HTML 标签、去除标点、分词、去除停用词、重新组合句子、
+
+#### 10、数据处理与特征工程
+>模型算法：Linear Regression、Support Vector Machine Regression、Random Forest Regression、Gradient Boosting Regression、K-Nearest Neighbors Regression 
+>
+>#### 数据预处理
+>可以设置图像统一尺寸、缺失值处理(自己定义的函数)、EDA、去除离群点、kdeplot、相关性分析、
+>
+>#### 建模
+>imputer 缺失值填充、交叉验证、
+>
+>#### 分析
+>按重要性进行特征选择、lime 展示特征影响、
+
 
 
 注意两个空格，换行
