@@ -32,7 +32,23 @@ TFRecords、
 word2vec原理、CBOW、Skip-gram、负采样、  
 
 
-#### 8、
+#### 8、RNN 文本分类任务
+embedding、加载 glove 模型、BiLSTM、  
+
+
+#### 9、TextCNN 文本分类
+TextCNN、
+
+
+#### 10、时间序列预测
+两层 LSTM、单点预测、区间预测、  
+
+
+
+
+
+
+
 
 
 
