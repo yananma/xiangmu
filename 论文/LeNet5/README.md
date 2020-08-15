@@ -8,3 +8,14 @@
 <br>
 <br>
 LeNet5 结构图  
+![GitHub](https://github.com/yananma/xiangmu/blob/master/%E8%AE%BA%E6%96%87/LeNet5/LeNet5.png)  
+
+Conv  
+Pool   
+<br>
+Conv  
+Pool  
+<br> 
+Dense  
+Dense  
+Dense  
