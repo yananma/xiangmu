@@ -19,7 +19,7 @@ training 中 ignore 以后剩 6000，再 NMS 阈值 0.7 剩 2000，再按 score 
 
 用的数据集是 PASCAL VOC 800 多兆，类别是 20 个，加上背景是 21 个；annotation 是标注  
 
-从 if __main__ 中的 train 进去，第一件事情就是初始化 VGG 网络  
+从 if \_\_main__ 中的 train 进去，第一件事情就是初始化 VGG 网络  
 
 然后就是取数据，拿到图片数据 imdb，5011 张，然后是 get_flipped_image，图片变为 10022 张，label 要改一下坐标；然后是读标签数据 roidb；RoIDataLayer 函数 shuffle 一下数据，有一个 output_dir 创建输出文件夹  
 
@@ -31,7 +31,7 @@ training 中 ignore 以后剩 6000，再 NMS 阈值 0.7 剩 2000，再按 score 
 
 再在 build_network 函数中的进入 build_head 函数来搭建 VGG16，就是 slim repeat 函数搭积木；VGG 用的卷积是 3x3 的，不改变大小，只有 maxpooling 改变，4 个 pooling，16 倍  
 
-然后是在 build_network 函数中的进入 build_rpn 函数来搭建 rpn 网络，build_rpn 函数里有一个 _\anchor_componet，是 anchor 相关，里面有一个 generate_anchor_pre 函数，这个 generate_anchor_pre 函数里有一个 generate_anchors 函数，画网格，生成框；出来这个 generate_anchors 函数，再回到 generate_anchor_pre 函数以后，再乘以 feat_stride 映射到原图上，到这里 _\anchor_componet 就算完了；回到 build_rpn 函数，_\anchor_componet 下面是 rpn 在特征图上的 3x3 卷积，然后是 2x9=18 个二分类，4x9=36 个框坐标回归  
+然后是在 build_network 函数中的进入 build_rpn 函数来搭建 rpn 网络，build_rpn 函数里有一个 \_anchor_componet，是 anchor 相关，里面有一个 generate_anchor_pre 函数，这个 generate_anchor_pre 函数里有一个 generate_anchors 函数，画网格，生成框；出来这个 generate_anchors 函数，再回到 generate_anchor_pre 函数以后，再乘以 feat_stride 映射到原图上，到这里 \_anchor_componet 就算完了；回到 build_rpn 函数，\_anchor_componet 下面是 rpn 在特征图上的 3x3 卷积，然后是 2x9=18 个二分类，4x9=36 个框坐标回归  
 
 然后是在 build_network 函数中的进入 build_proposals 函数，
 
