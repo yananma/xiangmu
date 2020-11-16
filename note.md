@@ -35,13 +35,3 @@ training 中 ignore 以后剩 6000，再 NMS 阈值 0.7 剩 2000，再按 score 
 
 然后是在 build_network 函数中的进入 build_proposals 函数，
 
-
-
-
-
-
-
-
-
-
-
