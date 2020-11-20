@@ -1,7 +1,7 @@
 
 ## Faster R-CNN  
 
-Faster R-CNN 由两部分组成，Fast R-CNN 和 RPN；Faster R-CNN 的核心就是 RPN，RPN 可以使用 GPU 来进行框的提取，解决了 Fast R-CNN 的瓶颈  
+Faster R-CNN 由两部分组成，Fast R-CNN 和 RPN；Faster R-CNN 只是加了一个 rpn 层，其他的和 Fast R-CNN 一样。Faster R-CNN 的核心就是 RPN，RPN 可以使用 GPU 来进行框的提取，解决了 Fast R-CNN 的瓶颈  
 
 RPN 的两个 loss，一个判断是前景还是背景，一个是坐标回归  
 
@@ -27,8 +27,6 @@ training 中 ignore 以后剩 6000，再 NMS 阈值 0.7 剩 2000，再按 score 
 
 从 create_architecture 函数进去，先是 3 种大小，3 种长宽，一共 9 种框；  
 
-后面这个要画一个树状图，就清楚了，画图，照照片，传上来  
-
 然后就是 bulid_network 函数，先读取预训练 weight
 
 再在 build_network 函数中的进入 build_head 函数来搭建 VGG16，就是 slim repeat 函数搭积木；VGG 用的卷积是 3x3 的，不改变大小，只有 maxpooling 改变，4 个 pooling，16 倍  
@@ -42,4 +40,4 @@ training 中 ignore 以后剩 6000，再 NMS 阈值 0.7 剩 2000，再按 score 
 
 再往后就是指定损失函数，有 4 个损失函数  
 
-Faster R-CNN 只是加了一个 rpn 层，其他的和 Fast R-CNN 一样。  
+![https://github.com/yananma/xiangmu/blob/master/RCNN%E7%B3%BB%E5%88%97/faster_rcnn.png]()
