@@ -40,4 +40,4 @@ training 中 ignore 以后剩 6000，再 NMS 阈值 0.7 剩 2000，再按 score 
 
 再往后就是指定损失函数，有 4 个损失函数  
 
-![https://github.com/yananma/xiangmu/blob/master/RCNN%E7%B3%BB%E5%88%97/faster_rcnn.png]()
+![faster_rcnn](https://github.com/yananma/xiangmu/blob/master/RCNN%E7%B3%BB%E5%88%97/faster_rcnn.png)
