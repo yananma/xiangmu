@@ -429,22 +429,6 @@ Lucas-Kanade 算法、
 
 
 
-## 已读论文
-AlexNet、VGG、GoogLeNet、ResNet  
-
-R-CNN、Fast R-CNN、Faster R-CNN、Mask R-CNN  
-
-YOLO、YOLOv2、YOLOv3、YOLOv4  
-
-SSD  
-
-Attention、Transformer、Bert  
-
-Batch Normalzation   
-
-
-
-
 《自然语言处理实战》  
 8、NLTK 工具包  
 12、spacy 工具包  
@@ -502,5 +486,43 @@ Batch Normalzation
 33、文本关系抽取实战  
 
 
+机器学习  
+李航《统计学习方法》  
+周志华《机器学习》  
+
+吴恩达《机器学习》  
+李宏毅《机器学习》  
+林轩田《机器学习基石》《机器学习技法》  
+B 站机器学习白板推导  
+七月在线邹博《机器学习》  
+
+深度学习  
+邱锡鹏《神经网络与深度学习》  
+李沐《动手学深度学习》(MXNet)代码敲了 8 遍  
+《Hands-on Machine Learning With TensorFlow & Keras》  
+Ian GoodFellow 《Deep Learning》 花书  
+François Chollet《Python 深度学习》(Keras)  
+斋藤康毅《深度学习入门》  
+斋藤康毅《深度学习进阶：自然语言处理》  
+
+吴恩达《深度学习》  
+李宏毅《深度学习》  
+李沐《动手学深度学习》书本的配套视频，看了 3 遍  
+李飞飞 CS231n《计算机视觉》  
+Christopher Manning CS224n《自然语言处理》  
+
+David Silver 《强化学习》  
 
 
+## 已读论文
+AlexNet、VGG、GoogLeNet、ResNet  
+
+R-CNN、Fast R-CNN、Faster R-CNN、Mask R-CNN  
+
+YOLO、YOLOv2、YOLOv3、YOLOv4  
+
+SSD  
+
+Attention、Transformer、Bert  
+
+Batch Normalzation   
