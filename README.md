@@ -411,6 +411,18 @@ Lucas-Kanade 算法、
 图像基本操作  
 图像处理  
 
+## 已读论文
+AlexNet、VGG、GoogLeNet、ResNet  
+
+R-CNN、Fast R-CNN、Faster R-CNN、Mask R-CNN  
+
+YOLO、YOLOv2、YOLOv3、YOLOv4  
+
+SSD  
+
+Attention、Transformer、Bert  
+
+Batch Normalzation   
 
 《物体检测实战》  
 6、Mask R-CNN 源码  
@@ -514,15 +526,3 @@ Christopher Manning CS224n《自然语言处理》
 David Silver 《强化学习》  
 
 
-## 已读论文
-AlexNet、VGG、GoogLeNet、ResNet  
-
-R-CNN、Fast R-CNN、Faster R-CNN、Mask R-CNN  
-
-YOLO、YOLOv2、YOLOv3、YOLOv4  
-
-SSD  
-
-Attention、Transformer、Bert  
-
-Batch Normalzation   
